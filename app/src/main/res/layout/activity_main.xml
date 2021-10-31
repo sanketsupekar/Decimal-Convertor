@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:layout_marginStart="50dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Decimal Number: "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <EditText
+        android:text=""
+        android:id="@+id/txtDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Submit"
+        android:id="@+id/button1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Binary: "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text=""
+        android:id="@+id/txtBinary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Octal: "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text=""
+        android:id="@+id/txtOctal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hexadecimal: "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text=""
+        android:id="@+id/txtHexadecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
